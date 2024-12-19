@@ -3,15 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #ffcc80;
+    background-color: #b22222;
     color: #fff;
     padding: 20px 10px;
     text-align: center;
+    border-bottom: 4px solid #8b0000;
 }
 
 .title-header {
@@ -21,56 +22,81 @@ header {
 main {
     max-width: 800px;
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 main img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 20px 0;
+    border: 3px solid #228b22;
 }
 
 main p {
     font-size: 1.2em;
     margin: 20px 0;
+    color: #333;
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffcc80;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #ff4500, #ff6347);
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #e6a157;
+    background: linear-gradient(45deg, #ff6347, #ff4500);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
 
 .step {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .step img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 10px;
+    border: 3px solid #228b22;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #ffcc80;
+    padding: 15px;
+    background-color: #b22222;
     color: #fff;
     margin-top: 20px;
-    border-top: 2px solid #e6a157;
+    border-top: 4px solid #8b0000;
+}
+
+
+header a button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background: linear-gradient(45deg, #228b22, #32cd32);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+header a button:hover {
+    background: linear-gradient(45deg, #32cd32, #228b22);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
 }
